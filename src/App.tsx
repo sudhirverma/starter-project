@@ -15,7 +15,7 @@ function App() {
     <React.StrictMode>
       <Router>
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/starter-project" component={HomePage} />
           <Route exact path="/POI" component={ProjectOfInterest} />
           <Route exact path="/VOI" component={VulnerabilityOfInterest} />
           <Route

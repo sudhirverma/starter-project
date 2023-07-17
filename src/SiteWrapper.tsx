@@ -37,7 +37,7 @@ type navItem = {
 const navBarItems: Array<navItem> = [
   {
     value: "Home",
-    to: "/",
+    to: "/starter-project",
     icon: "home",
     useExact: true,
   },
@@ -60,7 +60,7 @@ class SiteWrapper extends React.Component<Props, State> {
     return (
       <Site.Wrapper
         headerProps={{
-          href: "/",
+          href: "/starter-project",
           alt: "BeSLighthouse",
           // imageURL: "./demo/brand/tabler.svg",
           navItems: (
