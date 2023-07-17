@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 
 const root = document.getElementById("root") as HTMLElement;
-
+console.log("jklsdfjklsdfjksfjklsdfjklsdfjklsdfjkljsdfkljsdfkljsdfkljsdfkljsdfkljklsdfjklsdfjklsdfjklsdfj", root)
 if (root) {
   ReactDOM.render(
     <React.StrictMode>
